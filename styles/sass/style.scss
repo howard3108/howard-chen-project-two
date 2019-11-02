@@ -1,1 +1,89 @@
 @import 'setup';
+@import 'color';
+
+// header for index
+
+// font-family: 'Pompiere', cursive;
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;;
+}
+
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 1;
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 1.6rem;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+.wrapper {
+  padding: 3% 8% 0 8%;
+}
+
+.index-header {
+  background-image: url(shoe-kloset/header-image.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 750px;
+  position: relative;
+  .main-icon {
+    width: 30%;
+    height: 20%;
+    a {
+      text-decoration: none;
+      font-size: 3.58rem;
+      letter-spacing: 1.1px;
+      font-family: 'Pompiere', cursive;
+      color: $black;
+    }
+  }
+  .nav-bar {
+    width: 70%;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+      li {
+        margin-left: 5%;
+        a {
+          text-decoration: none;
+          color: $black;
+          text-transform: uppercase;
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  h1 {
+    font-size: 11rem;
+    line-height: 64px;
+    font-family: 'Pompiere', cursive;
+    color: $plumpurple;
+    height: 80%;
+    margin: 0;
+    padding-top: 5%;
+  }
+  .header-picture {
+    position: absolute;
+    bottom: -300px;
+    right: 0;
+
+  }
+}
+
+.line-change {
+  display: block;
+}
