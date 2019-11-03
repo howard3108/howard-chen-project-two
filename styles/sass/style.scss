@@ -1,13 +1,18 @@
 @import 'setup';
 @import 'color';
 
-// header for index
-
 // font-family: 'Pompiere', cursive;
+
 html {
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;;
 }
+
+.wrapper {
+  padding: 0% 8%;
+}
+
+// header styling
 
 .skip-link {
   position: absolute;
@@ -23,10 +28,6 @@ html {
   left: 0;
 }
 
-.wrapper {
-  padding: 3% 8% 0 8%;
-}
-
 .index-header {
   background-image: url(shoe-kloset/header-image.jpg);
   display: flex;
@@ -36,6 +37,7 @@ html {
   background-position: center; 
   height: 750px;
   position: relative;
+  padding-top: 50px;
   .main-icon {
     width: 30%;
     height: 20%;
@@ -78,12 +80,127 @@ html {
   }
   .header-picture {
     position: absolute;
-    bottom: -300px;
+    bottom: -250px;
     right: 0;
-
+    width: 50%;
   }
 }
 
 .line-change {
   display: block;
 }
+
+// main section 1 style
+
+.main-section-1 {
+  height: 750px;
+  background-color: $palemauve;
+  text-align: center;
+  padding: 220px 15%;
+  h2 {
+    font-family: 'Pompiere', cursive;
+    font-size: 5.2rem;
+    letter-spacing: 1.6px;
+    color: $plumpurple;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  p {
+    font-size: 2rem;
+    color: $black;
+    margin: 3% 0 4%;
+  }
+  a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: $plumpurple;
+    padding: 1% 2%;
+  }
+}
+
+// main section 2 style
+.main-section-2 {
+  display: flex; 
+  flex-wrap: wrap;
+  position: relative; 
+  height: 75rem;
+  .section-2-part-1 {
+    width: 50%;
+    height: 50%;
+    img {
+      position: absolute;
+      left: 0;
+      top: -50px;
+      width: 40%;
+      box-shadow: 50px 50px $orange;
+    }
+  }
+  .section-2-part-2 {
+    width: 50%;
+    height: 50%;
+    padding: 5%;
+    h3 {
+      text-transform: uppercase;
+      font-family: 'Pompiere', cursive;
+      font-size: 4.2rem;
+      letter-spacing: 1.3px;
+      color: $black;
+      margin: 0;
+    }
+    p {
+      font-size: 2rem;
+      color: $black;
+      margin: 3% 0 4%;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
+      background-color: $brownred;
+      padding: 1% 2%;
+      text-transform: uppercase;
+    }
+  }
+  .section-2-part-3 {
+    text-align: right;
+    width: 50%;
+    height: 50%;
+    padding: 5%;
+    h3 {
+      text-transform: uppercase;
+      font-family: 'Pompiere', cursive;
+      font-size: 4.2rem;
+      letter-spacing: 1.3px;
+      color: $black;
+      margin: 0;
+    }
+    p {
+      font-size: 2rem;
+      color: $black;
+      margin: 3% 0 4%;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
+      background-color: $brownred;
+      padding: 1% 2%;
+      text-transform: uppercase;
+    }
+  }
+  .section-2-part-4 {
+    width: 50%; 
+    height: 50%;
+    img {
+      position: absolute;
+      right: 0;
+      bottom: -50px;
+      width: 40%;
+      box-shadow: -50px 50px $orange;
+    }
+  }
+}
+
+// main-section-3 styling
