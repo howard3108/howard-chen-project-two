@@ -47,6 +47,13 @@ html {
       letter-spacing: 1.1px;
       font-family: 'Pompiere', cursive;
       color: $black;
+      &:hover {
+        color: yellow;
+        text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
+      }
+      &:focus {
+        border: 3px solid orange;
+      }
     }
   }
   .nav-bar {
@@ -57,6 +64,7 @@ html {
       margin: 0;
       display: flex;
       justify-content: flex-end;
+      align-items: center;
       li {
         margin-left: 5%;
         a {
@@ -65,6 +73,21 @@ html {
           text-transform: uppercase;
           font-size: 2rem;
           font-weight: bold;
+          &:hover {
+          color: yellow;
+          text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
+          }
+        }
+      }
+      .home-nav-tag {
+        background-color: $brownred;
+        padding: 1% 2%;
+        a {
+          color: white;
+          &:hover {
+            color: yellow;
+            text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+          }
         }
       }
     }
@@ -109,6 +132,7 @@ html {
     font-size: 2rem;
     color: $black;
     margin: 3% 0 4%;
+    line-height: 1.5;
   }
   a {
     text-decoration: none;
@@ -117,6 +141,10 @@ html {
     text-transform: uppercase;
     background-color: $plumpurple;
     padding: 1% 2%;
+    &:hover {
+      color: yellow;
+      text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+    }
   }
 }
 
@@ -153,6 +181,7 @@ html {
       font-size: 2rem;
       color: $black;
       margin: 3% 0 4%;
+      line-height: 1.5;
     }
     a {
       text-decoration: none;
@@ -161,6 +190,10 @@ html {
       background-color: $brownred;
       padding: 1% 2%;
       text-transform: uppercase;
+      &:hover {
+      color: yellow;
+      text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+      }
     }
   }
   .section-2-part-3 {
@@ -180,6 +213,7 @@ html {
       font-size: 2rem;
       color: $black;
       margin: 3% 0 4%;
+      line-height: 1.5;
     }
     a {
       text-decoration: none;
@@ -188,6 +222,10 @@ html {
       background-color: $brownred;
       padding: 1% 2%;
       text-transform: uppercase;
+      &:hover {
+      color: yellow;
+      text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+      }
     }
   }
   .section-2-part-4 {
@@ -204,11 +242,6 @@ html {
 }
 
 // main section 3 styling
-
-.section-3-parts {
-  width: 50%;
-}
-
 .main-section-3 {
   background-color: $palemauve;
   height: 750px;
@@ -216,32 +249,42 @@ html {
   flex-wrap: wrap;
   padding-top: 10%;
   padding-bottom: 5%;
-  h3 {
+  .section-3-parts {
+  width: 50%;
+  position: relative;
+    .main-section-3-icon-radius {
+      border-radius: 50%;
+      padding: 10px;
+      background-color: $plumpurple;
+      text-align: center;
+      height: 70px;
+      width: 70px;
+      display: inline-block;
+      i {
+        font-size: 4rem;
+        color: white;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    p {
+    font-size: 2rem;
+    margin: 0 0 0 90px;
+    line-height: 1.5;
+    }
+    h3 {
     font-size: 5.2rem;
     letter-spacing: 1.6px;
     font-family: 'Pompiere', cursive;
     text-transform: uppercase;
     margin: 0;
+    padding-left: 2rem;
+    position: absolute;
+    top: 10px; 
     display: inline-block;
     }
-  i {
-    background-color: $plumpurple;
-    border-radius: 50%;
-    padding: 20px;
-    font-size: 5.2em;
-    color: white;
-    text-align: center;
-    display: inline-block;
   }
-  p {
-    font-size: 2rem;
-    margin: 0 0 0 100px;
-  }
-}
-
-.fas {
-  width: 100px;
-  height: 100px; 
 }
 
 // main section 4 styling
@@ -268,7 +311,6 @@ html {
   }
   .section-5-text {
     width: 65%;
-  }
     h2 {
       font-size: 5.2rem;
       font-family: 'Pompiere', cursive;
@@ -290,7 +332,37 @@ html {
       background-color: $brownred;
       padding: 1% 2%;
       text-transform: uppercase;
+      &:hover {
+      color: yellow;
+      text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
     }
+    }
+  }
 }
 
 // aside styling
+.aside-section {
+  height: 500px;
+  background: $palemauve;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .aside-picture {
+    width: 30%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// footer styling
+footer {
+  background: $brownred;
+  text-align: center;
+  padding: 10px 0;
+  p {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+  }
+}
