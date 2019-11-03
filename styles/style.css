@@ -464,3 +464,104 @@ html {
   -webkit-box-shadow: -50px 50px #FE6F19;
           box-shadow: -50px 50px #FE6F19;
 }
+
+.section-3-parts {
+  width: 50%;
+}
+
+.main-section-3 {
+  background-color: #FAE5FF;
+  height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.main-section-3 h3 {
+  font-size: 5.2rem;
+  letter-spacing: 1.6px;
+  font-family: 'Pompiere', cursive;
+  text-transform: uppercase;
+  margin: 0;
+  display: inline-block;
+}
+
+.main-section-3 i {
+  background-color: #4C0341;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 5.2em;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.main-section-3 p {
+  font-size: 2rem;
+  margin: 0 0 0 100px;
+}
+
+.fas {
+  width: 100px;
+  height: 100px;
+}
+
+.main-section-4 {
+  background: url(shoe-kloset/banner.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-section-5 {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.main-section-5 .section-5-picture {
+  width: 35%;
+}
+
+.main-section-5 .section-5-picture img {
+  -webkit-box-shadow: 50px 50px #FE6F19;
+          box-shadow: 50px 50px #FE6F19;
+  width: 70%;
+}
+
+.main-section-5 .section-5-text {
+  width: 65%;
+}
+
+.main-section-5 h2 {
+  font-size: 5.2rem;
+  font-family: 'Pompiere', cursive;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #4C0341;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.main-section-5 p {
+  font-size: 2rem;
+  color: #0D0D0D;
+  margin: 3% 0 4%;
+}
+
+.main-section-5 a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  background-color: #882C07;
+  padding: 1% 2%;
+  text-transform: uppercase;
+}

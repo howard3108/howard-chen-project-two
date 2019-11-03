@@ -203,4 +203,94 @@ html {
   }
 }
 
-// main-section-3 styling
+// main section 3 styling
+
+.section-3-parts {
+  width: 50%;
+}
+
+.main-section-3 {
+  background-color: $palemauve;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  h3 {
+    font-size: 5.2rem;
+    letter-spacing: 1.6px;
+    font-family: 'Pompiere', cursive;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+    }
+  i {
+    background-color: $plumpurple;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 5.2em;
+    color: white;
+    text-align: center;
+    display: inline-block;
+  }
+  p {
+    font-size: 2rem;
+    margin: 0 0 0 100px;
+  }
+}
+
+.fas {
+  width: 100px;
+  height: 100px; 
+}
+
+// main section 4 styling
+.main-section-4 {
+  background: url(shoe-kloset/banner.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+// main section 5 styling
+.main-section-5 {
+  height: 600px;
+  display: flex;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  .section-5-picture {
+    width: 35%;
+    img {
+    box-shadow: 50px 50px $orange;
+    width: 70%;
+    }
+  }
+  .section-5-text {
+    width: 65%;
+  }
+    h2 {
+      font-size: 5.2rem;
+      font-family: 'Pompiere', cursive;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: $plumpurple;
+      margin: 0;
+      padding-top: 50px
+    }
+    p {
+      font-size: 2rem;
+      color: $black;
+      margin: 3% 0 4%;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
+      background-color: $brownred;
+      padding: 1% 2%;
+      text-transform: uppercase;
+    }
+}
+
+// aside styling
