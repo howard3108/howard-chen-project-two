@@ -1,5 +1,6 @@
 @import 'setup';
 @import 'color';
+@import 'contact';
 
 // font-family: 'Pompiere', cursive;
 
@@ -109,6 +110,7 @@ html {
   }
 }
 
+// consider to change to br
 .line-change {
   display: block;
 }

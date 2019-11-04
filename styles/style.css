@@ -235,6 +235,122 @@ html {
   overflow: hidden;
 }
 
+.wrapper-contact-page {
+  padding: 0% 8%;
+}
+
+.contact-header {
+  background-image: url(shoe-kloset/contact-image.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  padding-top: 50px;
+}
+
+.contact-header .main-icon {
+  width: 30%;
+  height: 20%;
+}
+
+.contact-header .main-icon a {
+  text-decoration: none;
+  font-size: 3.58rem;
+  letter-spacing: 1.1px;
+  font-family: 'Pompiere', cursive;
+  color: #0D0D0D;
+}
+
+.contact-header .main-icon a:hover {
+  color: yellow;
+  text-shadow: 1px -2px 0px black, 0 0 5px #0e005f;
+}
+
+.contact-header .main-icon a:focus {
+  border: 3px solid orange;
+}
+
+.contact-header .nav-bar {
+  width: 70%;
+}
+
+.contact-header .nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-header .nav-bar ul li {
+  margin-left: 5%;
+}
+
+.contact-header .nav-bar ul li a {
+  text-decoration: none;
+  color: #0D0D0D;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-header .nav-bar ul li a:hover {
+  color: yellow;
+  text-shadow: 1px -2px 0px black, 0 0 5px #0e005f;
+}
+
+.contact-header .nav-bar ul .contact-nav-tag {
+  background-color: #882C07;
+  padding: 1% 2%;
+}
+
+.contact-header .nav-bar ul .contact-nav-tag a {
+  color: white;
+}
+
+.contact-header .nav-bar ul .contact-nav-tag a:hover {
+  color: yellow;
+  text-shadow: 1px -2px 0px black, 0 0 5px white;
+}
+
+.contact-header h1 {
+  font-size: 8rem;
+  line-height: 92px;
+  font-family: 'Pompiere', cursive;
+  color: #4C0341;
+  height: 80%;
+  margin: 0;
+  padding-top: 5%;
+  text-transform: uppercase;
+}
+
+.contact-footer {
+  background-color: #FAE5FF;
+  text-align: left;
+  height: 600px;
+}
+
+.contact-footer ul {
+  list-style: none;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 html {
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;

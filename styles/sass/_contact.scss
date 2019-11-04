@@ -1,0 +1,92 @@
+
+
+.wrapper-contact-page {
+  padding: 0% 8%;
+}
+
+.contact-header {
+  background-image: url(shoe-kloset/contact-image.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 600px;
+  position: relative;
+  padding-top: 50px;
+  .main-icon {
+    width: 30%;
+    height: 20%;
+    a {
+      text-decoration: none;
+      font-size: 3.58rem;
+      letter-spacing: 1.1px;
+      font-family: 'Pompiere', cursive;
+      color: $black;
+      &:hover {
+        color: yellow;
+        text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
+      }
+      &:focus {
+        border: 3px solid orange;
+      }
+    }
+  }
+  .nav-bar {
+    width: 70%;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      li {
+        margin-left: 5%;
+        a {
+          text-decoration: none;
+          color: $black;
+          text-transform: uppercase;
+          font-size: 2rem;
+          font-weight: bold;
+          &:hover {
+          color: yellow;
+          text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
+          }
+        }
+      }
+      .contact-nav-tag {
+        background-color: $brownred;
+        padding: 1% 2%;
+        a {
+          color: white;
+          &:hover {
+            color: yellow;
+            text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+          }
+        }
+      }
+    }
+  }
+  h1 {
+    font-size: 8rem;
+    line-height: 92px;
+    font-family: 'Pompiere', cursive;
+    color: $plumpurple;
+    height: 80%;
+    margin: 0;
+    padding-top: 5%;
+    text-transform: uppercase;
+  }
+}
+
+.contact-footer {
+  background-color: $palemauve;
+  text-align: left; 
+  height: 600px;
+  ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+}
