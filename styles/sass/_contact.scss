@@ -28,7 +28,7 @@
         text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
       }
       &:focus {
-        border: 3px solid orange;
+        border: 5px solid orange;
       }
     }
   }
@@ -53,6 +53,9 @@
           color: yellow;
           text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
           }
+          &:focus {
+            border: 5px solid orange;
+          }
         }
       }
       .contact-nav-tag {
@@ -63,6 +66,9 @@
           &:hover {
             color: yellow;
             text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+          &:focus {
+            border: 5px solid orange;
+            }
           }
         }
       }
@@ -92,12 +98,21 @@
   ul {
     list-style: none;
     margin: 0;
+    padding: 0;
     display: flex;
     li {
+      margin-right: 2%;
       a {
         text-decoration: none;
         color: $plumpurple;
         font-size: 3rem;
+        &:hover {
+          color: yellow;
+          text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+        }
+        &:focus {
+        border: 5px solid orange;
+        }
       }
     }
   }
@@ -133,6 +148,9 @@
       &::placeholder {
         opacity: 1;
       }
+      &:focus {
+        border: 5px solid orange;
+      }
     }
     input.email-comment-style {
       font-size: 2rem;
@@ -143,6 +161,9 @@
       border-bottom: solid 1px $orange;
       &::placeholder {
         opacity: 1;
+      }
+      &:focus {
+        border: 5px solid orange;
       }
     }
     textarea {
@@ -156,6 +177,9 @@
       &::placeholder {
         opacity: 1;
       }
+      &:focus {
+        border: 5px solid orange;
+      }
     }
     button {
       border: none; 
@@ -168,7 +192,10 @@
       letter-spacing: 1px;
       &:hover {
         color: yellow;
-        text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+        text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255,   255);
+      }
+      &:focus {
+        border: 5px solid orange;
       }
     }
     .visually-hidden { 

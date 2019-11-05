@@ -273,7 +273,7 @@ html {
 }
 
 .contact-header .main-icon a:focus {
-  border: 3px solid orange;
+  border: 5px solid orange;
 }
 
 .contact-header .nav-bar {
@@ -312,6 +312,10 @@ html {
   text-shadow: 1px -2px 0px black, 0 0 5px #0e005f;
 }
 
+.contact-header .nav-bar ul li a:focus {
+  border: 5px solid orange;
+}
+
 .contact-header .nav-bar ul .contact-nav-tag {
   background-color: #882C07;
   padding: 1% 2%;
@@ -324,6 +328,10 @@ html {
 .contact-header .nav-bar ul .contact-nav-tag a:hover {
   color: yellow;
   text-shadow: 1px -2px 0px black, 0 0 5px white;
+}
+
+.contact-header .nav-bar ul .contact-nav-tag a:hover:focus {
+  border: 5px solid orange;
 }
 
 .contact-header h1 {
@@ -351,15 +359,29 @@ html {
 .contact-footer ul {
   list-style: none;
   margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.contact-footer ul li {
+  margin-right: 2%;
 }
 
 .contact-footer ul li a {
   text-decoration: none;
   color: #4C0341;
   font-size: 3rem;
+}
+
+.contact-footer ul li a:hover {
+  color: yellow;
+  text-shadow: 1px -2px 0px black, 0 0 5px white;
+}
+
+.contact-footer ul li a:focus {
+  border: 5px solid orange;
 }
 
 .contact-footer h3 {
@@ -417,6 +439,10 @@ html {
   opacity: 1;
 }
 
+.contact-footer .comments-submit-form input.name-comment-style:focus {
+  border: 5px solid orange;
+}
+
 .contact-footer .comments-submit-form input.email-comment-style {
   font-size: 2rem;
   width: 48%;
@@ -440,6 +466,10 @@ html {
 
 .contact-footer .comments-submit-form input.email-comment-style::placeholder {
   opacity: 1;
+}
+
+.contact-footer .comments-submit-form input.email-comment-style:focus {
+  border: 5px solid orange;
 }
 
 .contact-footer .comments-submit-form textarea {
@@ -468,6 +498,10 @@ html {
   opacity: 1;
 }
 
+.contact-footer .comments-submit-form textarea:focus {
+  border: 5px solid orange;
+}
+
 .contact-footer .comments-submit-form button {
   border: none;
   background-color: #882C07;
@@ -482,6 +516,10 @@ html {
 .contact-footer .comments-submit-form button:hover {
   color: yellow;
   text-shadow: 1px -2px 0px black, 0 0 5px white;
+}
+
+.contact-footer .comments-submit-form button:focus {
+  border: 5px solid orange;
 }
 
 .contact-footer .comments-submit-form .visually-hidden {
