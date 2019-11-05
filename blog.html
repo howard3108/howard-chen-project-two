@@ -11,23 +11,23 @@
   <title>Shoe Kloset Blog</title>
 </head>
 <body>
-  <header>
+  <header class="blog-header wrapper-blog">
     <a href="#main-content" class="skip-link">Skip to main content.</a>
     <div class="main-icon">
-      <a href="#index.html">Shoe Kloset</a>
+      <a href="index.html">Shoe <br>Kloset</a>
     </div>
     <nav class="nav-bar">
       <ul>
         <li><a href="index.html">home</a></li>
         <li><a href="#">about</a></li>
-        <li><a href="#blog.html">blog</a></li>
+        <li class="blog-nav-tag"><a href="#blog.html">blog</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
     </nav>
     <h1>Blog</h1>
   </header>
-  <main id="main-content">
-    <div class="left-part-description">
+  <main id="main-content" class="wrapper-blog-2">
+    <div class="blog-left-description">
       <img src="styles/shoe-kloset/sidebar-image.jpg" alt="Nike sneakers stepped on puddle of water.">
       <h3>Any Weather</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quia.</p>
@@ -41,42 +41,55 @@
         </ul>
       </p>
     </div>
-    <article>
-      <img src="styles/shoe-kloset/blog-post-image.jpg" alt="Two stylish woman on high heels walk on the sidewalk.">
-      <h2>Shoes around the world</h2>
-      <p>Monday May 4th, 2019 by Dieula</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo distinctio eveniet eligendi harum qui saepe a cupiditate libero asperiores alias vero soluta, facilis tempora sunt? Cumque voluptas debitis dignissimos culpa nostrum similique deserunt itaque ad porro nobis. Animi nulla beatae asperiores vitae, et praesentium iure repellendus, numquam ipsam dignissimos corrupti.</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat corporis officia perferendis quo pariatur neque quos, reprehenderit dolorem amet accusantium culpa ut nemo quidem id debitis, consequatur, facilis quis asperiores saepe natus a ex. Aspernatur, quisquam deserunt quas mollitia sequi veniam reprehenderit commodi adipisci atque sapiente nihil. Sequi sunt ea debitis dolorum natus ratione. Quis, harum eos? Sed hic tempora explicabo unde eligendi, nostrum accusantium maiores labore, facere minima temporibus.</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate modi corrupti nemo omnis eos natus reprehenderit, quasi hic dignissimos asperiores illum tenetur non laboriosam explicabo.</p>
-    </article>
-    <section class="comments-section">
-      <h2>Comments:</h2>
-      <div class="comments-container">
-        <div class="comments-1">
-          <img src="styles/shoe-kloset/comment-1.jpg" alt="A picture of Jeremy.">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, nesciunt! Maiores animi mollitia ea expedita impedit harum vel, sapiente quaerat perspiciatis, facere voluptates necessitatibus esse atque error blanditiis, commodi voluptate.</p>
+    <div class="blog-right-description">
+      <article>
+        <img src="styles/shoe-kloset/blog-post-image.jpg" alt="Two stylish woman on high heels walk on the sidewalk.">
+        <h2>Shoes around the world</h2>
+        <div class="date">
+          <p>Monday May 4th, 2019 by Dieula</p>
         </div>
-        <div class="comments-2">
-          <img src="styles/shoe-kloset/comment-2.jpg" alt="A picture of Julia.">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quasi doloribus blanditiis consequuntur rerum. Ipsa explicabo at quae cum ipsam. Nihil error voluptas inventore optio quibusdam. Itaque dignissimos quas quam.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo distinctio eveniet eligendi harum qui saepe a cupiditate libero asperiores alias vero soluta, facilis tempora sunt? Cumque voluptas debitis dignissimos culpa nostrum similique deserunt itaque ad porro nobis. Animi nulla beatae asperiores vitae, et praesentium iure repellendus, numquam ipsam dignissimos corrupti.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat corporis officia perferendis quo pariatur neque quos, reprehenderit dolorem amet accusantium culpa ut nemo quidem id debitis, consequatur, facilis quis asperiores saepe natus a ex. Aspernatur, quisquam deserunt quas mollitia sequi veniam reprehenderit commodi adipisci atque sapiente nihil. Sequi sunt ea debitis dolorum natus ratione. Quis, harum eos? Sed hic tempora explicabo unde eligendi, nostrum accusantium maiores labore, facere minima temporibus.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate modi corrupti nemo omnis eos natus reprehenderit, quasi hic dignissimos asperiores illum tenetur non laboriosam explicabo.</p>
+      </article>
+      <section class="comments-section">
+        <h2>Comments:</h2>
+        <div class="comments-container">
+          <div class="comments-1">
+            <img src="styles/shoe-kloset/comment-1.jpg" alt="A picture of Jeremy.">
+            <div class="image-text">
+              <div class="date">
+                <p>Tuesday November 21th, 2019 by Jeremy</p>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, nesciunt! Maiores animi mollitia ea expedita impedit harum vel, sapiente quaerat perspiciatis, facere voluptates necessitatibus esse atque error blanditiis, commodi voluptate.</p>
+            </div>
+          </div>
+          <div class="comments-2">
+            <img src="styles/shoe-kloset/comment-2.jpg" alt="A picture of Julia.">
+            <div class="image-text">
+              <div class="date">
+                <p>Tuesday November 21th, 2019 by Jeremy</p>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quasi doloribus blanditiis consequuntur rerum. Ipsa explicabo at quae cum ipsam. Nihil error voluptas inventore optio quibusdam. Itaque dignissimos quas quam.</p>
+            </div>
+          </div>
+        <div class="blog-comments-submit-form">
+          <label for="name-comment" class="visually-hidden">Name</label>
+          <input type="text" name="comments-name" id="name-comment" placeholder="Name" class="name-comment-style">
+          <label for="email-comment" class="visually-hidden">Email Address</label>
+          <input type="text" name="comments-email" id="email-comment" placeholder="Email Address" class="email-comment-style">
+          <textarea name="comments-box" id="comment-section" cols="30" rows="10" placeholder="Message">
+          </textarea>
+          <label for="button-comment" class="visually-hidden">Submit</label>
+          <button type="submit" name="comments-post-button" id="button-comment">SUBMIT</button>
         </div>
-        <div class="comments-submit-form">
-          <label for="name-comment">Name</label>
-          <input type="text" name="comments-name" id="name-comment" placeholder="Name">
-          <label for="email-comment">Email Address</label>
-          <input type="text" name="comments-email" id="email-comment" placeholder="Email Address">
-          <label for="comment-section">Comment</label>
-          <input type="text" name="comments-box" id="comment-section" placeholder="Comment">
-          <label for="button-comment">Post Comment</label>
-          <button input type="submit" name="comments-post-button" id="button-comment">POST COMMENT</button>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="copyright">
-        <p>Copyright <i class="far fa-copyright"></i> 2019 Juno College</p>
-      </div>
-    </footer>
+      </section>
+    </div>
   </main>
+  <footer>
+    <div class="copyright">
+      <p>Copyright <i class="far fa-copyright"></i> 2019 Juno College</p>
+    </div>
+  </footer>
 </body>
 </html>

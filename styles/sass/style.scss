@@ -1,6 +1,7 @@
 @import 'setup';
 @import 'color';
 @import 'contact';
+@import 'blog';
 
 // font-family: 'Pompiere', cursive;
 
@@ -53,7 +54,7 @@ html {
         text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
       }
       &:focus {
-        border: 3px solid orange;
+        border: 5px solid orange;
       }
     }
   }
@@ -75,8 +76,11 @@ html {
           font-size: 2rem;
           font-weight: bold;
           &:hover {
-          color: yellow;
-          text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
+            color: yellow;
+            text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(14, 0, 95);
+          }
+          &:focus {
+          border: 5px solid orange;
           }
         }
       }
@@ -84,7 +88,7 @@ html {
         background-color: $brownred;
         padding: 1% 2%;
         a {
-          color: white;
+          color: $white;
           &:hover {
             color: yellow;
             text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
@@ -139,13 +143,16 @@ html {
   a {
     text-decoration: none;
     font-size: 2rem;
-    color: white;
+    color: $white;
     text-transform: uppercase;
     background-color: $plumpurple;
     padding: 1% 2%;
     &:hover {
       color: yellow;
       text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+    }
+    &:focus {
+      border: 5px solid orange;
     }
   }
 }
@@ -187,7 +194,7 @@ html {
     }
     a {
       text-decoration: none;
-      color: white;
+      color: $white;
       font-size: 2rem;
       background-color: $brownred;
       padding: 1% 2%;
@@ -195,6 +202,9 @@ html {
       &:hover {
       color: yellow;
       text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+      }
+      &:focus {
+        border: 5px solid orange;
       }
     }
   }
@@ -219,7 +229,7 @@ html {
     }
     a {
       text-decoration: none;
-      color: white;
+      color: $white;
       font-size: 2rem;
       background-color: $brownred;
       padding: 1% 2%;
@@ -227,6 +237,9 @@ html {
       &:hover {
       color: yellow;
       text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
+      }
+      &:focus {
+        border: 5px solid orange;
       }
     }
   }
@@ -264,7 +277,7 @@ html {
       display: inline-block;
       i {
         font-size: 4rem;
-        color: white;
+        color: $white;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
@@ -329,7 +342,7 @@ html {
     }
     a {
       text-decoration: none;
-      color: white;
+      color: $white;
       font-size: 2rem;
       background-color: $brownred;
       padding: 1% 2%;
@@ -337,7 +350,10 @@ html {
       &:hover {
       color: yellow;
       text-shadow: 1px -2px 0px rgba(0,0,0,1),0 0 5px rgb(255, 255, 255);
-    }
+      }
+      &:focus {
+        border: 5px solid orange;
+      }
     }
   }
 }
@@ -365,6 +381,6 @@ footer {
   p {
     margin: 0;
     font-size: 2rem;
-    color: white;
+    color: $white;
   }
 }
