@@ -111,6 +111,7 @@ html {
     bottom: -250px;
     right: 0;
     width: 50%;
+    z-index: 1;
   }
 }
 
@@ -163,6 +164,7 @@ html {
   flex-wrap: wrap;
   position: relative; 
   height: 75rem;
+  background-color: $white;
   .section-2-part-1 {
     width: 50%;
     height: 50%;
@@ -317,6 +319,7 @@ html {
   display: flex;
   padding-top: 10%;
   padding-bottom: 5%;
+  background: $white;
   .section-5-picture {
     width: 35%;
     img {

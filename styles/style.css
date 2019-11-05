@@ -711,12 +711,12 @@ main .blog-right-description {
   width: 69%;
   display: inline-block;
   margin-left: 3%;
-  padding: 20% 0 3% 0;
+  padding-bottom: 3%;
 }
 
 main .blog-right-description article {
   background-color: white;
-  padding: 100px 14% 3% 5%;
+  padding: 40% 14% 3% 5%;
 }
 
 main .blog-right-description article img {
@@ -1096,6 +1096,7 @@ html {
   bottom: -250px;
   right: 0;
   width: 50%;
+  z-index: 1;
 }
 
 .line-change {
@@ -1151,6 +1152,7 @@ html {
       flex-wrap: wrap;
   position: relative;
   height: 75rem;
+  background-color: #FFFFFF;
 }
 
 .main-section-2 .section-2-part-1 {
@@ -1331,6 +1333,7 @@ html {
   display: flex;
   padding-top: 10%;
   padding-bottom: 5%;
+  background: #FFFFFF;
 }
 
 .main-section-5 .section-5-picture {
