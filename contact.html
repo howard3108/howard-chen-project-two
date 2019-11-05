@@ -38,14 +38,14 @@
     <p>Toronto,Ontario</p>
     <p>M5V2D5</p>
     <section class="comments-submit-form">
-      <label for="name-comment">Name</label>
-      <input type="text" name="comments-name" id="name-comment" placeholder="Name">
-      <label for="email-comment">Email Address</label>
-      <input type="text" name="comments-email" id="email-comment" placeholder="Email Address">
-      <label for="comment-section">Comment</label>
-      <input type="text" name="comments-box" id="comment-section" placeholder="Comment">
-      <label for="button-comment">Post Comment</label>
-      <button input type="submit" name="comments-post-button" id="button-comment">POST COMMENT</button>
+      <label for="name-comment" class="visually-hidden">Name</label>
+      <input type="text" name="comments-name" id="name-comment" placeholder="Name" class="name-comment-style">
+      <label for="email-comment" class="visually-hidden">Email Address</label>
+      <input type="text" name="comments-email" id="email-comment" placeholder="Email Address" class="email-comment-style">
+      <textarea name="comments-box" id="comment-section" cols="30" rows="10"placeholder="Message">
+      </textarea>
+      <label for="button-comment" class="visually-hidden" >Submit</label>
+      <button type="submit" name="comments-post-button" id="button-comment">SUBMIT</button>
     </section>
     <div class="copyright">
       <p>Copyright <i class="far fa-copyright"></i> 2019 Juno College</p>
