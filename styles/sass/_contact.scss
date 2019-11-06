@@ -85,6 +85,61 @@
   }
 }
 
+// hamburger-menu 
+.hamburger-menu {
+  display: none;
+  .hamburger-nav {
+    background: $black;
+    position: fixed;
+    z-index: 10;
+    width: 65%; 
+    right: -65%;
+    top: 0;
+    transition: all 0.5s;
+    li {
+      a {
+        text-decoration: none;
+        border-bottom: 1px solid grey;
+        display: inline-block;
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 1rem;
+        transition: all 0.3s;
+        color: $white; 
+        text-transform: uppercase;
+        &:hover {
+          color: yellow;
+        }
+          &:focus {
+          border: 5px solid orange;
+        }
+      }
+    }
+  }
+  input[type="checkbox"] {
+    display: none; 
+  }
+  label[for="toggle"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: $black;
+    z-index: 10;
+    font-size: 2rem;
+    background: white;
+    &:hover {
+      color: red;
+    }
+    &:focus {
+      border: 5px solid orange;
+    }
+  }
+}
+input[type="checkbox"]:checked + ul.hamburger-nav {
+	right: 0;
+}
+
+
 .contact-footer {
   background-color: $palemauve;
   text-align: left; 
@@ -219,6 +274,90 @@
       color: $white;
       margin: 0;
       line-height: 1.15;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-header {
+    height: 450px; 
+    h1 {
+      padding-left: 0;
+      padding-top: 150px;
+    }
+  }
+  .contact-footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 8% 15%;
+    .comments-submit-form {
+      position: static;
+      width: 100%;
+      order: -1;
+      margin-bottom: 60px;
+    }
+    h3 {
+      margin: 20px 0;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-header {
+    .nav-bar {
+      visibility: hidden;
+    }
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  .contact-footer {
+    .comments-submit-form{
+      box-shadow: none;
+      button {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .comments-submit-form {
+    input {
+      &::placeholder{
+        font-size: 1.6rem;
+      }
+    }
+    textarea {
+      &::placeholder{
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .contact-footer {
+    .comments-submit-form {
+      input.name-comment-style{
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .contact-footer {
+    .comments-submit-form {
+      input.email-comment-style{
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .contact-footer {
+    .comments-submit-form {
+      height: 400px;
+      textarea{
+        font-size: 1.6rem;
+      }
     }
   }
 }
